@@ -3,7 +3,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Employee",
   "type": "object",
-  "allOf": [{ "$ref": "file:./person.json" }],
+  "allOf": [{ "$ref": "person.json" }],
   "properties": {
     "company": { "type": "string" }
   },
