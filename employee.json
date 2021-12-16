@@ -1,6 +1,9 @@
 {
-  "id": "http://example.com/employee",
-  "allOf": [{ "$ref": "https://example.com/person" }],
+  "$id": "https://example.com/employee.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Employee",
+  "type": "object",
+  "allOf": [{ "$ref": "file:./person.json" }],
   "properties": {
     "company": { "type": "string" }
   },
