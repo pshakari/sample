@@ -21,8 +21,7 @@
       "description": "List of addresses a person has",
       "type": "array",
       "items": {
-        "type": "Address",
-        "$ref": "https://raw.githubusercontent.com/pshakari/sample/master/address.json"
+        "allOf": [{ "$ref": "https://raw.githubusercontent.com/pshakari/sample/master/address.json" }]
       }
 
     }
