@@ -16,6 +16,15 @@
       "description": "Age in years which must be equal to or greater than zero.",
       "type": "integer",
       "minimum": 0
+    },
+    "address": {
+      "description": "List of addresses a person has",
+      "type": "array",
+      "items": {
+        "type": "Event",
+        "$ref": "https://raw.githubusercontent.com/pshakari/sample/master/address.json"
+      }
+
     }
   }
 }
